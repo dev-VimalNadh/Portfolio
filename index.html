@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vimal Nadh R | Senior Flutter Developer</title>
+  <meta name="description" content="Portfolio of Vimal Nadh R - Senior Flutter Developer with 3.5+ years of experience in cross-platform mobile apps, AI/ML integrations, and high performance architecture." />
+  <meta name="theme-color" content="#FFD700" />
+  
+  <!-- Font Awesome & Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- Header / Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-box">V</span>
+        <span class="logo-text">VIMAL<span class="highlight">.DEV</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary nav-btn">
+          <span>Let's Talk</span>
+          <i class="fa-solid fa-arrow-trend-up"></i>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          <span>Available for New Projects & Opportunities</span>
+        </div>
+
+        <h1 class="hero-title">
+          Senior <span class="highlight-text">Flutter</span><br />
+          Application Developer
+        </h1>
+
+        <p class="hero-subtitle">
+          Hi, I'm <strong class="text-white">Vimal Nadh R</strong>. I craft production-ready, beautiful, and ultra-smooth cross-platform mobile experiences for iOS and Android with 3.5+ years of real-world expertise.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore My Work</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="mailto:vimalnadhr@gmail.com" class="btn btn-secondary">
+            <i class="fa-regular fa-envelope"></i>
+            <span>Get in Touch</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-number">3.5<span class="highlight">+</span></span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">9<span class="highlight">+</span></span>
+            <span class="stat-label">Delivered Apps</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">6<span class="highlight">+</span></span>
+            <span class="stat-label">Play & App Store Releases</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="device-mockup">
+          <div class="mockup-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="mockup-title">flutter_main.dart</span>
+          </div>
+          <div class="mockup-code">
+            <pre><code><span class="code-comment">// Developer Profile</span>
+<span class="code-keyword">final</span> developer = FlutterSpecialist(
+  name: <span class="code-string">'Vimal Nadh R'</span>,
+  title: <span class="code-string">'Senior Flutter Developer'</span>,
+  location: <span class="code-string">'Kollam, Kerala, India'</span>,
+  expertise: [
+    <span class="code-string">'Cross-Platform Apps'</span>,
+    <span class="code-string">'AI/ML Integration'</span>,
+    <span class="code-string">'GetX, Provider, BLoC'</span>,
+    <span class="code-string">'Realtime Audio/Video'</span>
+  ],
+  passion: <span class="code-string">'Crafting pixel-perfect UX'</span>,
+);
+
+<span class="code-keyword">void</span> <span class="code-func">launchApp</span>() {
+  runApp(<span class="code-class">PortfolioVimal</span>());
+}</code></pre>
+          </div>
+          <div class="floating-badge badge-1">
+            <i class="fa-brands fa-flutter highlight"></i>
+            <div>
+              <strong>Flutter & Dart</strong>
+              <small>Specialist</small>
+            </div>
+          </div>
+          <div class="floating-badge badge-2">
+            <i class="fa-solid fa-brain highlight"></i>
+            <div>
+              <strong>AI / ML</strong>
+              <small>On-Device Inference</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">Who I Am</span>
+        <h2 class="section-title">Engineered for Performance & Scalability</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-card">
+          <p class="lead-text">
+            I am a <strong>Senior Flutter Developer</strong> with <strong>3.5+ years</strong> of proven track record in designing, developing, and architecting resilient cross-platform applications for iOS and Android.
+          </p>
+          <p>
+            My background extends from leading & mentoring developer squads to shipping flagship products directly to the <strong>Apple App Store</strong> and <strong>Google Play</strong>. I bridge the gap between complex engineering—such as on-device AI/ML model inference, real-time WebRTC audio/video calling, payment gateways, and geolocation mapping—with sleek, 60fps animations.
+          </p>
+          <div class="info-pills">
+            <div class="info-pill"><i class="fa-solid fa-location-dot highlight"></i> Kollam, Kerala, India</div>
+            <div class="info-pill"><i class="fa-solid fa-graduation-cap highlight"></i> B.Tech CSE (2016 - 2020)</div>
+            <div class="info-pill"><i class="fa-solid fa-language highlight"></i> English, Malayalam</div>
+          </div>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-box">
+            <div class="box-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <h3>Cross-Platform Mastery</h3>
+            <p>Unified, native-performance codebases for iOS and Android using clean MVC, GetX, Provider, and BLoC patterns.</p>
+          </div>
+
+          <div class="highlight-box">
+            <div class="box-icon"><i class="fa-solid fa-microchip"></i></div>
+            <h3>AI & ML Integration</h3>
+            <p>Deploying real-time predictive models, personalized algorithms, and intelligent on-device data processing.</p>
+          </div>
+
+          <div class="highlight-box">
+            <div class="box-icon"><i class="fa-solid fa-people-roof"></i></div>
+            <h3>Leadership & Quality</h3>
+            <p>Mentoring junior talent, eliminating widget rebuild bottlenecks, unit/widget testing, and ensuring high code standards.</p>
+          </div>
+
+          <div class="highlight-box">
+            <div class="box-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+            <h3>Full Lifecycle Delivery</h3>
+            <p>End-to-end management from concept, UI/UX implementation, backend REST/Firebase APIs to App Store deployments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading">Technical Arsenal</span>
+        <h2 class="section-title">Skills & Technologies</h2>
+        <p class="section-desc">Technologies and architectural tools I leverage to build mission-critical mobile software.</p>
+      </div>
+
+      <div class="skills-categories">
+        <!-- Category 1 -->
+        <div class="skill-category-card">
+          <div class="cat-header">
+            <i class="fa-solid fa-code cat-icon"></i>
+            <h3>Core & Languages</h3>
+          </div>
+          <div class="tags-container">
+            <span class="tag"><i class="fa-brands fa-dart-lang"></i> Dart</span>
+            <span class="tag"><i class="fa-brands fa-flutter"></i> Flutter</span>
+            <span class="tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span class="tag"><i class="fa-brands fa-android"></i> Android SDK</span>
+            <span class="tag"><i class="fa-brands fa-apple"></i> iOS SDK</span>
+            <span class="tag"><i class="fa-solid fa-cubes"></i> Cross-Platform</span>
+          </div>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="skill-category-card">
+          <div class="cat-header">
+            <i class="fa-solid fa-diagram-project cat-icon"></i>
+            <h3>Architecture & State</h3>
+          </div>
+          <div class="tags-container">
+            <span class="tag">GetX State Manager</span>
+            <span class="tag">BLoC Pattern</span>
+            <span class="tag">Provider</span>
+            <span class="tag">MVC Architecture</span>
+            <span class="tag">Clean Architecture</span>
+            <span class="tag">Dependency Injection</span>
+          </div>
+        </div>
+
+        <!-- Category 3 -->
+        <div class="skill-category-card">
+          <div class="cat-header">
+            <i class="fa-solid fa-server cat-icon"></i>
+            <h3>Backend & Cloud</h3>
+          </div>
+          <div class="tags-container">
+            <span class="tag"><i class="fa-solid fa-network-wired"></i> RESTful APIs</span>
+            <span class="tag"><i class="fa-solid fa-fire"></i> Firebase Core</span>
+            <span class="tag">Realtime Database</span>
+            <span class="tag">Cloud Firestore</span>
+            <span class="tag">Firebase Auth</span>
+            <span class="tag">Push Notifications (FCM)</span>
+          </div>
+        </div>
+
+        <!-- Category 4 -->
+        <div class="skill-category-card">
+          <div class="cat-header">
+            <i class="fa-solid fa-sliders cat-icon"></i>
+            <h3>Advanced Features</h3>
+          </div>
+          <div class="tags-container">
+            <span class="tag"><i class="fa-solid fa-robot"></i> AI / ML Features</span>
+            <span class="tag"><i class="fa-solid fa-video"></i> Voice & Video Calling</span>
+            <span class="tag"><i class="fa-solid fa-credit-card"></i> Payment Gateways</span>
+            <span class="tag"><i class="fa-solid fa-map-location-dot"></i> Google Maps & GPS</span>
+            <span class="tag">Real-time Location Tracking</span>
+            <span class="tag">Offline Caching</span>
+          </div>
+        </div>
+
+        <!-- Category 5 -->
+        <div class="skill-category-card">
+          <div class="cat-header">
+            <i class="fa-solid fa-palette cat-icon"></i>
+            <h3>UI & Animations</h3>
+          </div>
+          <div class="tags-container">
+            <span class="tag">Material 3 Design</span>
+            <span class="tag">Cupertino Widgets</span>
+            <span class="tag">Custom Painters</span>
+            <span class="tag">Complex Animations</span>
+            <span class="tag">Adobe XD</span>
+            <span class="tag">Adobe Photoshop</span>
+          </div>
+        </div>
+
+        <!-- Category 6 -->
+        <div class="skill-category-card">
+          <div class="cat-header">
+            <i class="fa-solid fa-shield-halved cat-icon"></i>
+            <h3>Testing & Tooling</h3>
+          </div>
+          <div class="tags-container">
+            <span class="tag">Unit Testing</span>
+            <span class="tag">Widget Testing</span>
+            <span class="tag"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+            <span class="tag">Android Studio</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Performance Profiling</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">Career History</span>
+        <h2 class="section-title">Professional Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <!-- Job 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">Current Position</div>
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Flutter Developer</h3>
+                <h4 class="company-name"><i class="fa-solid fa-building"></i> Students Travel App</h4>
+              </div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> March 2025 – Present</span>
+            </div>
+            <ul class="experience-bullets">
+              <li>Designed and developed <strong>STAPP AI</strong>, a cross-platform mobile application for iOS and Android, using MVC architecture and GetX.</li>
+              <li>Integrated AI/ML capabilities for real-time predictions, personalized recommendations, and intelligent content processing; collaborated with backend and research teams on model inference, data preprocessing, and on-device performance.</li>
+              <li>Managed the application lifecycle across development, testing, and deployment to the Apple App Store and Google Play.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="mini-tag">Flutter</span>
+              <span class="mini-tag">GetX</span>
+              <span class="mini-tag">AI/ML Integration</span>
+              <span class="mini-tag">iOS & Android Deployment</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Flutter Developer</h3>
+                <h4 class="company-name"><i class="fa-solid fa-building"></i> NovelX Technologies</h4>
+              </div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Dec 2023 – Feb 2025</span>
+            </div>
+            <ul class="experience-bullets">
+              <li>Led and mentored <strong>three junior developers</strong>, conducting regular code reviews and improving application runtime performance by eliminating unnecessary widget rebuilds.</li>
+              <li>Delivered <strong>nine feature-rich Flutter projects</strong>, with six successfully published on the Google Play Store.</li>
+              <li>Integrated real-time voice and video calling, payment gateways, Google Maps, Firebase services, and Realtime Database.</li>
+              <li>Designed scalable application structures using GetX, Provider, and BLoC, selecting the optimal state-management pattern for specific app complexities.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="mini-tag">Team Leadership</span>
+              <span class="mini-tag">BLoC / GetX / Provider</span>
+              <span class="mini-tag">Voice & Video Calling</span>
+              <span class="mini-tag">Google Play Store</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">App Developer Associate</h3>
+                <h4 class="company-name"><i class="fa-solid fa-building"></i> Butomy Pvt Ltd</h4>
+              </div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2022 – 2023</span>
+            </div>
+            <ul class="experience-bullets">
+              <li>Worked on multiple core products including <strong>Butomy App</strong>, <strong>Neogen Care</strong>, <strong>Accoy App</strong>, and <strong>WHMS Red Cross</strong>.</li>
+              <li>Integrated secure RESTful APIs in close collaboration with backend engineers.</li>
+              <li>Resolved critical application bugs and engineered custom Flutter widgets and fluid UI animations to enhance end-user engagement.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="mini-tag">REST APIs</span>
+              <span class="mini-tag">Custom Widgets</span>
+              <span class="mini-tag">UI Animations</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 4 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Flutter Developer</h3>
+                <h4 class="company-name"><i class="fa-solid fa-building"></i> Xpect Corps</h4>
+              </div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2020 – 2021</span>
+            </div>
+            <ul class="experience-bullets">
+              <li>Developed and supported applications such as <strong>Cake Cafe</strong>, <strong>Vyapari Online</strong>, and <strong>uMatter</strong>.</li>
+              <li>Collaborated closely with UX/UI designers to transform wireframes into pixel-perfect interactive mobile interfaces.</li>
+              <li>Implemented Provider-based state management to maintain stability and predictable app state.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="mini-tag">UI/UX Implementation</span>
+              <span class="mini-tag">Provider</span>
+              <span class="mini-tag">Mobile Engineering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">Featured Apps</span>
+        <h2 class="section-title">Selected Projects</h2>
+        <p class="section-desc">A selection of commercial, AI-driven, and enterprise mobile applications built for production.</p>
+      </div>
+
+      <!-- Filter buttons -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="ai">AI & Utilities</button>
+        <button class="filter-btn" data-filter="commerce">Classifieds & Booking</button>
+        <button class="filter-btn" data-filter="media">Media & Education</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: STAPP AI -->
+        <div class="project-card" data-category="ai">
+          <div class="card-glow"></div>
+          <div class="project-top">
+            <div class="folder-icon">
+              <i class="fa-solid fa-wand-magic-sparkles highlight"></i>
+            </div>
+            <div class="badge-store">
+              <i class="fa-brands fa-apple"></i>
+              <i class="fa-brands fa-google-play"></i>
+              <span>App Store & Play</span>
+            </div>
+          </div>
+          <h3 class="project-title">STAPP AI – Students Travel App</h3>
+          <p class="project-desc">
+            AI-powered student support application offering automated visa guidance, university admissions, financial aid, accommodation, internship & placement assistance, IELTS/TOEFL prep, and entrance coaching.
+          </p>
+          <div class="project-features">
+            <span><i class="fa-solid fa-check"></i> On-Device AI Inference</span>
+            <span><i class="fa-solid fa-check"></i> Dual Store Deployment</span>
+            <span><i class="fa-solid fa-check"></i> MVC & GetX Architecture</span>
+          </div>
+          <div class="project-tech">
+            <span>Flutter</span>
+            <span>GetX</span>
+            <span>AI/ML</span>
+            <span>REST API</span>
+          </div>
+        </div>
+
+        <!-- Project 2: ARTIO -->
+        <div class="project-card" data-category="commerce">
+          <div class="card-glow"></div>
+          <div class="project-top">
+            <div class="folder-icon">
+              <i class="fa-solid fa-car highlight"></i>
+            </div>
+            <div class="badge-store">
+              <i class="fa-solid fa-location-arrow"></i>
+              <span>Live Tracking</span>
+            </div>
+          </div>
+          <h3 class="project-title">ARTIO – Travel & Ride Booking</h3>
+          <p class="project-desc">
+            Cross-platform on-demand ride booking platform with dual roles (Driver & Rider). Features real-time dispatch, turn-by-turn live GPS tracking, in-app VoIP 1-on-1 voice calling, and instant payment settlement.
+          </p>
+          <div class="project-features">
+            <span><i class="fa-solid fa-check"></i> 1-to-1 Voice Calling</span>
+            <span><i class="fa-solid fa-check"></i> Google Maps & GPS Route</span>
+            <span><i class="fa-solid fa-check"></i> Payment Gateway</span>
+          </div>
+          <div class="project-tech">
+            <span>Flutter</span>
+            <span>Google Maps</span>
+            <span>VoIP Calling</span>
+            <span>Payments</span>
+          </div>
+        </div>
+
+        <!-- Project 3: Landsoo -->
+        <div class="project-card" data-category="commerce">
+          <div class="card-glow"></div>
+          <div class="project-top">
+            <div class="folder-icon">
+              <i class="fa-solid fa-house-chimney highlight"></i>
+            </div>
+            <div class="badge-store">
+              <i class="fa-solid fa-tag"></i>
+              <span>Real Estate</span>
+            </div>
+          </div>
+          <h3 class="project-title">Landsoo – Real Estate Classifieds</h3>
+          <p class="project-desc">
+            Comprehensive real-estate marketplace for browsing, filtering, and listing plots, houses, and luxury apartments for sale or rent. Includes direct buyer-seller messaging and property-requirement matching.
+          </p>
+          <div class="project-features">
+            <span><i class="fa-solid fa-check"></i> Advanced Filtering & Search</span>
+            <span><i class="fa-solid fa-check"></i> Direct Buyer-Seller Connect</span>
+            <span><i class="fa-solid fa-check"></i> Interactive Map Views</span>
+          </div>
+          <div class="project-tech">
+            <span>Flutter</span>
+            <span>Firebase</span>
+            <span>REST APIs</span>
+            <span>Provider</span>
+          </div>
+        </div>
+
+        <!-- Project 4: Vaanampadi FM -->
+        <div class="project-card" data-category="media">
+          <div class="card-glow"></div>
+          <div class="project-top">
+            <div class="folder-icon">
+              <i class="fa-solid fa-headphones highlight"></i>
+            </div>
+            <div class="badge-store">
+              <i class="fa-solid fa-circle-play"></i>
+              <span>Audio OTT</span>
+            </div>
+          </div>
+          <h3 class="project-title">Vaanampadi FM – Audio Streaming</h3>
+          <p class="project-desc">
+            Rich audio OTT streaming application featuring original audio docu-dramas, audiobooks, serials, and short stories with tiered access (freemium and VIP subscriptions) with background playback controls.
+          </p>
+          <div class="project-features">
+            <span><i class="fa-solid fa-check"></i> Background Audio Engine</span>
+            <span><i class="fa-solid fa-check"></i> Premium Subscriptions</span>
+            <span><i class="fa-solid fa-check"></i> Offline Audio Caching</span>
+          </div>
+          <div class="project-tech">
+            <span>Flutter</span>
+            <span>Audio Streaming</span>
+            <span>In-App Purchases</span>
+          </div>
+        </div>
+
+        <!-- Project 5: D-STONE -->
+        <div class="project-card" data-category="ai">
+          <div class="card-glow"></div>
+          <div class="project-top">
+            <div class="folder-icon">
+              <i class="fa-solid fa-sun highlight"></i>
+            </div>
+            <div class="badge-store">
+              <i class="fa-solid fa-calendar-day"></i>
+              <span>Lifestyle</span>
+            </div>
+          </div>
+          <h3 class="project-title">D-STONE – Astro Calendar & Hub</h3>
+          <p class="project-desc">
+            Tamil astrology and lifestyle portal providing daily astrological updates, auspicious timings (Nalla Neram), custom alarms, event reminders, and verified local business directory listings.
+          </p>
+          <div class="project-features">
+            <span><i class="fa-solid fa-check"></i> Astrological Calculations</span>
+            <span><i class="fa-solid fa-check"></i> Push Alarms & Notifications</span>
+            <span><i class="fa-solid fa-check"></i> Business Directory</span>
+          </div>
+          <div class="project-tech">
+            <span>Flutter</span>
+            <span>Local Notifications</span>
+            <span>GetX</span>
+          </div>
+        </div>
+
+        <!-- Project 6: InfinQx -->
+        <div class="project-card" data-category="commerce">
+          <div class="card-glow"></div>
+          <div class="project-top">
+            <div class="folder-icon">
+              <i class="fa-solid fa-chart-line highlight"></i>
+            </div>
+            <div class="badge-store">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <span>Fintech</span>
+            </div>
+          </div>
+          <h3 class="project-title">InfinQx – Trading Insights</h3>
+          <p class="project-desc">
+            Real-time market analytics application engineered for day traders and financial investors to track financial instruments, sentiment, and trending market moves.
+          </p>
+          <div class="project-tech">
+            <span>Flutter</span>
+            <span>WebSockets</span>
+            <span>Interactive Charts</span>
+          </div>
+        </div>
+
+        <!-- Project 7: Blissman -->
+        <div class="project-card" data-category="commerce">
+          <div class="card-glow"></div>
+          <div class="project-top">
+            <div class="folder-icon">
+              <i class="fa-solid fa-motorcycle highlight"></i>
+            </div>
+            <div class="badge-store">
+              <span>Logistics</span>
+            </div>
+          </div>
+          <h3 class="project-title">Blissman – Delivery Partner App</h3>
+          <p class="project-desc">
+            Dedicated delivery partner mobile application for the Blisser platform handling order reception, navigation dispatch, status tracking, and earnings reports.
+          </p>
+          <div class="project-tech">
+            <span>Flutter</span>
+            <span>Location Services</span>
+            <span>Firebase</span>
+          </div>
+        </div>
+
+        <!-- Project 8: Mass & Radical -->
+        <div class="project-card" data-category="media">
+          <div class="card-glow"></div>
+          <div class="project-top">
+            <div class="folder-icon">
+              <i class="fa-solid fa-layer-group highlight"></i>
+            </div>
+            <div class="badge-store">
+              <span>EdTech & Pay</span>
+            </div>
+          </div>
+          <h3 class="project-title">Mass Pay & Radical EdTech</h3>
+          <p class="project-desc">
+            <strong>Mass:</strong> Secure utility bill payments portal. <br/>
+            <strong>Radical:</strong> Comprehensive online learning & mock exam prep application for Teachers Entrance Exam candidates.
+          </p>
+          <div class="project-tech">
+            <span>Payment APIs</span>
+            <span>Video Lectures</span>
+            <span>Quiz Engine</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section education-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">Academic Foundation</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="education-card">
+        <div class="edu-icon">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div class="edu-info">
+          <h3>Bachelor of Technology in Computer Science & Engineering</h3>
+          <h4 class="company-name">SHM College of Engineering</h4>
+          <span class="edu-date"><i class="fa-regular fa-calendar"></i> 2016 – 2020</span>
+          <p>Comprehensive computer science curriculum focused on algorithms, data structures, software engineering principles, operating systems, and object-oriented design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="contact-box">
+        <div class="contact-header text-center">
+          <span class="sub-heading">Let's Connect</span>
+          <h2 class="section-title">Have a Project or Role in Mind?</h2>
+          <p class="section-desc">
+            Whether you want to build a breakthrough mobile application from scratch, optimize your Flutter app architecture, or add a dedicated developer to your team, I'd love to hear from you.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-methods">
+            <a href="mailto:vimalnadhr@gmail.com" class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="contact-type">Email Me</span>
+                <span class="contact-value">vimalnadhr@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="tel:+919633717592" class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <span class="contact-type">Call / WhatsApp</span>
+                <span class="contact-value">+91 96337 17592</span>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com/in/vimal-nadh-r-5009401b0" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div>
+                <span class="contact-type">LinkedIn Profile</span>
+                <span class="contact-value">vimal-nadh-r-5009401b0</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/dev-VimalNadh" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <span class="contact-type">GitHub Profile</span>
+                <span class="contact-value">github.com/dev-VimalNadh</span>
+              </div>
+            </a>
+
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="contact-type">Location</span>
+                <span class="contact-value">Kollam, Kerala, India</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" onsubmit="event.preventDefault(); alert('Thank you! Your message has been prepared. Please reach out via email directly at vimalnadhr@gmail.com');">
+            <h3 class="form-title">Send a Quick Message</h3>
+            <div class="input-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="John Doe" required />
+            </div>
+            <div class="input-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="john@example.com" required />
+            </div>
+            <div class="input-group">
+              <label for="message">Project Details</label>
+              <textarea id="message" rows="4" placeholder="Tell me about your app idea or role..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <span class="logo-box">V</span>
+        <span>Vimal Nadh R</span>
+      </div>
+      <p class="copyright">
+        &copy; <span id="currentYear"></span> Vimal Nadh R. Designed with high-contrast Black & Yellow theme for GitHub Pages.
+      </p>
+      <div class="footer-socials">
+        <a href="https://github.com/dev-VimalNadh" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/vimal-nadh-r-5009401b0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:vimalnadhr@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="tel:+919633717592" aria-label="Phone">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
