@@ -14,11 +14,6 @@ Follow these easy steps to host this portfolio on GitHub Pages:
 In this directory (`e:\XPECT\Resume`), open your terminal/command prompt and run:
 
 ```bash
-git init
-git add .
-git commit -m "Initial commit: Black & Yellow Flutter Developer Portfolio"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
 git push -u origin main
 ```
 
